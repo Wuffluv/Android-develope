@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Second Lab"
 include(":app")
- 
