@@ -106,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void addTextToTextView() {
-        // Ваша реализация добавления текста в textView
     }
 
     private void addTextToTextView2() {
