@@ -47,6 +47,7 @@
             android:layout_gravity="right"
             app:srcCompat="@android:drawable/alert_dark_frame" />
 
+
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <ImageView
