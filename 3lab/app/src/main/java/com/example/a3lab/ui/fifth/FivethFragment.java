@@ -1,4 +1,4 @@
-package com.example.a3lab;
+package com.example.a3lab.ui.fifth;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.a3lab.R;
 
 public class FivethFragment extends Fragment {
 

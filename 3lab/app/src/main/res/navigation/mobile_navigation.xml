@@ -24,12 +24,12 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_four"
-        android:name="com.example.a3lab.FourthFragment"
+        android:name="com.example.a3lab.ui.fourth.FourthFragment"
         android:label="@string/title_four"
         tools:layout="@layout/fragment_fourth" />
     <fragment
         android:id="@+id/navigation_five"
-        android:name="com.example.a3lab.FivethFragment"
+        android:name="com.example.a3lab.ui.fifth.FivethFragment"
         android:label="@string/title_five"
         tools:layout="@layout/fragment_fiveth" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.a3lab;
+package com.example.a3lab.ui.fifth;
 
 import androidx.lifecycle.ViewModel;
 
