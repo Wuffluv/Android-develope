@@ -22,4 +22,14 @@
         android:name="com.example.a3lab.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_four"
+        android:name="com.example.a3lab.FourthFragment"
+        android:label="@string/title_four"
+        tools:layout="@layout/fragment_fourth" />
+    <fragment
+        android:id="@+id/navigation_five"
+        android:name="com.example.a3lab.FivethFragment"
+        android:label="@string/title_five"
+        tools:layout="@layout/fragment_fiveth" />
 </navigation>
