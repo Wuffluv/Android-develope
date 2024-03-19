@@ -9,22 +9,33 @@ import android.view.ViewGroup;
 
 import com.example.a3lab.databinding.PlantItemBinding;
 
+import java.util.ArrayList;
+
 public class PlantAdapter extends RecyclerView.Adapter<PlantAdapter.PlantHolder> {
+
+    private ArrayList<PlantClass> plantList = new ArrayList<>();
 
     @NonNull
     @Override
     public PlantHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.plant_item, parent, false)
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.plant_item, parent, false);
+        return new PlantHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull PlantHolder holder, int position) {
-
+        PlantClass plant = plantList.get(position);
+        holder.bind(plant);
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return plantList.size();
+    }
+
+    public void addPlant(PlantClass plant) {
+        plantList.add(plant);
+        notifyDataSetChanged();
     }
 
     class PlantHolder extends RecyclerView.ViewHolder {
